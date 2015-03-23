@@ -23,6 +23,10 @@ public class Bag<T> implements Iterable {
         return pointer;
     }
 
+    private void resize(T[] container, int newSize) {
+
+    }
+
     @Override
     public Iterator iterator() {
         return new BagIterator();
