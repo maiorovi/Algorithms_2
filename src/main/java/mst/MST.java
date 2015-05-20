@@ -7,7 +7,7 @@ public class MST {
     }
 
     public Iterable<Edge> edges() {
-
+        return null;
     }
 
     public double weight() {
